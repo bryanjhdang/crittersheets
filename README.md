@@ -1,2 +1,2 @@
-# mausritter-inventory
-A web-app inventory system for the TTRPG Mausritter. 
+# Mausritter Character Sheet
+An online character sheet for the TTRPG Mausritter. 
