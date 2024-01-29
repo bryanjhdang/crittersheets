@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from "./components/About";
 import Create from "./components/Create";
 import Sheet from "./components/Sheet";
-import Landing from "./components/Characters";
+import Characters from "./components/Characters";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
             <Route path="/sheet"
                 element={<Sheet />} />
             <Route path="/"
-                element={<Landing />} />
+                element={<Characters />} />
         </Routes>
     </Router>
   );
