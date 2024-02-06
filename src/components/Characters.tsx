@@ -18,19 +18,15 @@ function Characters() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1 className="text-3xl font-bold underline">
-					Hello world!
-				</h1>
-
 				<p>this is the main page where you view all your characters</p>
 
-				<button onClick={goToAboutComponent}>
+				<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded mr-2" onClick={goToAboutComponent}>
 					about page
 				</button>
-				<button onClick={goToSheetComponent}>
+				<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded mr-2" onClick={goToSheetComponent}>
 					character sheet
 				</button>
-				<button onClick={goToCreateComponent}>
+				<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded mr-2" onClick={goToCreateComponent}>
 					character creation
 				</button>
 			</header>
