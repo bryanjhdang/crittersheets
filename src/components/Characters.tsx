@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import Header from './Header';
  
 function Characters() {
     const navigate = useNavigate();
@@ -17,6 +18,7 @@ function Characters() {
 
     return (
         <div className="App">
+            <Header/>
             <header className="App-header">
                 <p>this is the main page where you view all your characters</p>
 
