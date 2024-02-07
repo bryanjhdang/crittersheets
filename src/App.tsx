@@ -7,20 +7,20 @@ import Sheet from "./components/Sheet";
 import Characters from "./components/Characters";
 
 function App() {
-	return (
-		<Router>
-			<Routes>
-				<Route path="/about"
-					element={<About />} />
-				<Route path="/create"
-					element={<Create />} />
-				<Route path="/sheet"
-					element={<Sheet />} />
-				<Route path="/"
-					element={<Characters />} />
-			</Routes>
-		</Router>
-	);
+  return (
+    <Router>
+        <Routes>
+            <Route path="/about"
+                element={<About />} />
+            <Route path="/create"
+                element={<Create />} />
+            <Route path="/sheet"
+                element={<Sheet />} />
+            <Route path="/"
+                element={<Characters />} />
+        </Routes>
+    </Router>
+  );
 }
 
 export default App
