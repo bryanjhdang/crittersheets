@@ -7,6 +7,10 @@
   src: url("./fonts/PirataOne-Regular.ttf");
 }
 
+.font-pirata {
+  font-family: "Pirata One";
+}
+
 @font-face {
   font-family: "Barlow Condensed";
   src: url("./fonts/BarlowCondensed-Black.ttf");
