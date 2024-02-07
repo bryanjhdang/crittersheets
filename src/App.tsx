@@ -1,9 +1,9 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from "./components/About";
-import Create from "./components/Create";
-import Sheet from "./components/Sheet";
-import Characters from "./components/Characters";
+import About from "./about/About";
+import Create from "./creation/Create";
+import Sheet from "./sheet/Sheet";
+import Characters from "./characters/Characters";
 
 function App() {
   return (
