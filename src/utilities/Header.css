@@ -1,0 +1,29 @@
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.header-nav li:last-child {
+  margin-right: 0;
+}
+
+.header-nav a {
+  color: black;
+}
