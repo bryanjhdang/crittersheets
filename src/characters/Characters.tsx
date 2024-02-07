@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import Header from './Header';
+import Header from '../utilities/Header';
  
 function Characters() {
     const navigate = useNavigate();
