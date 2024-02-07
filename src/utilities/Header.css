@@ -1,29 +1,7 @@
-.header {
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.custom-yellow-hover-bg {
+  padding: 0.5rem 0.5rem;
 }
 
-.header-title {
-  margin: 0;
-  padding: 0;
-}
-
-.header-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-.header-nav li {
-  display: inline;
-  margin-right: 30px;
-}
-
-.header-nav li:last-child {
-  margin-right: 0;
-}
-
-.header-nav a {
-  color: black;
+.custom-yellow-hover-bg:hover {
+  background-color: #ffff00;
 }
