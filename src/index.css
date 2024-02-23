@@ -136,3 +136,10 @@
   font-weight: 100;
   font-style: italic;
 }
+
+@layer components {
+  .statLabel {
+    @apply font-pirata ;
+    background-color: #D9D9D9;
+  }
+}
