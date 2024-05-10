@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import Header from '../utilities/Header';
+import { Inventory } from "@critter/common" 
 
-function Sheet() {
+function Sheet(inv : Inventory) {
     return (
         <div className="App">
             <Header/>
