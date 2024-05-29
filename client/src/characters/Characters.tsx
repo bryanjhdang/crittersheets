@@ -1,8 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import Header from '../utilities/Header';
+import { Inventory } from '@critter/common';
  
 function Characters() {
     const navigate = useNavigate();
+
+    const inventory = new Inventory([]);
  
     const goToAboutComponent = () => { 
         navigate('/about'); 
