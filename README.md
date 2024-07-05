@@ -1,4 +1,4 @@
-# Critter
+# CritterSheets
 An online character sheet for the tabletop RPG Mausritter.
 
 ## Local Installation
