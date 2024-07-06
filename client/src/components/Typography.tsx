@@ -10,4 +10,3 @@ export const Title = ({ children } : { children: React.ReactNode }) => {
     <div className="">{children}</div>
   )
 }
-
