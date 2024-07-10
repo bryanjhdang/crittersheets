@@ -3,12 +3,12 @@ import { Text, Title } from "../Typography"
 
 export const Landing = () => {
   return (
-    <div className="flex flex-row justify-center">
-      <div className="">
+    <div className="flex flex-row">
+      <div>
         <AboutCritterSheets />
         <Support />
       </div>
-      <div className="">
+      <div>
         <SheetActions />
       </div>
     </div>

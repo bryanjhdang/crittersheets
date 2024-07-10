@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export const Layout = () => {
   return (
-    <div className="flex flex-col h-screen just-between">
+    <div className="flex flex-col">
       <Header />
-      <div className="mb-auto">
+      <div className="flex flex-row justify-center mb-auto">
         <Outlet />
       </div>
       <Footer />
@@ -27,7 +27,7 @@ const Header = () => {
 const Footer = () => {
   return (
     <div className="bg-[#EEEEEE] flex items-center justify-center">
-      <Text>CritterSheets is a free service.</Text>
+      {/* <Text>CritterSheets is a free service.</Text> */}
     </div>
   )
 }
