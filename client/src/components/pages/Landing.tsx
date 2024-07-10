@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom"
-import { Text } from "../Typography"
+import { Text, Title } from "../Typography"
 
 export const Landing = () => {
   return (
     <div className="flex flex-row">
       <div className="">
         <AboutCritterSheets />
-        <AboutMausritter />
-        <HowToUse />
         <Support />
       </div>
       <div className="">
@@ -20,33 +18,21 @@ export const Landing = () => {
 const AboutCritterSheets = () => {
   return (
     <>
-      <Text>Critter Sheets is a lightweight and free online tool to keep track of character sheets for the online tabletop RPG Mausritter. This is not affiliated with Mausritter or Losing Games as official content in any way.</Text>
-    </>
-  )
-}
-
-const AboutMausritter = () => {
-  return (
-    <>
-      <Text>Mausritter is an easy to pick up game where you explore the world as mice adventurers. By using wacky items and strange magics to navigate the big world, there is a unique physical card-based inventory system to keep things limited, but fun.</Text>
-    </>
-  )
-}
-
-const HowToUse = () => {
-  return (
-    <>
-      <Text>Critter Sheets aims to bridge the gap of not having the physical box copy by giving an alternative online way to play the game.</Text>
-      <Text>By using drag-and-drop equipment slots and quality of life features like dice rolling, quick access to rules, and creating custom components on the fly, hopefully this is a useful tool for you!</Text>
+      <Title>What is <span className="text-[#0066FF]">CritterSheets?</span></Title>
+      <Text>CritterSheets is a light-weight and free online tool to keep track of character sheets for the online TTRPG Mausritter. </Text> 
+      <Text>This is not affiliated as official content with Mausritter or Losing Games in any way.</Text>
+      <Text>Mausritter is a game where you explore the world as mice adventurers. By using wacky items and strange magics to navigate the big world, you must survive by carefully rationing your items in a unique physical card-based inventory system.</Text>
+      <Text>By using drag-and-drop equipment slots and features like automatic dice rolling, quick access to rules, and the ability to create custom items on the fly, CritterSheets is here to enhance your Mausritter sessions!</Text>
     </>
   )
 }
 
 const Support = () => {
   return (
-    <>
-      <Text>This is a personal project so it will always remain free and open-source. We really enjoy Mausritter so we're hoping this can be a tool for players to easily get into it.</Text>
-    </>
+    <div>
+      <Title>Support</Title>
+      <Text>This is a personal project so it will always remain free and open-source. If you find any bugs or recommendations with the app, feel free to bring it up in the Issues tab on our public GitHub repository!</Text>
+    </div>
   )
 }
 

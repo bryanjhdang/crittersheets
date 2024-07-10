@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { Text } from "./Typography";
+import { Text, Title } from "./Typography";
+import { Link } from "react-router-dom";
 
 export const Layout = () => {
   return (
@@ -15,15 +16,18 @@ export const Layout = () => {
 
 const Header = () => {
   return (
-    <>
-    </>
+    <div className="flex flex-row">
+      <Title>
+        <Link to="/">CritterSheets</Link>
+      </Title>
+    </div>
   )
 }
 
 const Footer = () => {
   return (
     <div className="bg-[#20232a] flex items-center justify-center">
-      <Text>Critter Sheets is a free service.</Text>
+      <Text>CritterSheets is a free service.</Text>
     </div>
   )
 }
