@@ -11,7 +11,7 @@
   font-family: "Pirata One";
 }
 
-@font-face {
+/* @font-face {
   font-family: "Barlow Condensed";
   src: url("./assets/fonts/BarlowCondensed-Black.ttf");
   font-weight: black;
@@ -100,7 +100,7 @@
   src: url("./assets/fonts/BarlowCondensed-MediumItalic.ttf");
   font-weight: medium;
   font-style: italic;
-}
+} */
 
 @font-face {
   font-family: "Barlow Condensed";
@@ -109,7 +109,7 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Barlow Condensed";
   src: url("./assets/fonts/BarlowCondensed-SemiBold.ttf");
   font-weight: 600;
@@ -135,7 +135,7 @@
   src: url("./assets/fonts/BarlowCondensed-ThinItalic.ttf");
   font-weight: 100;
   font-style: italic;
-}
+} */
 
 .font-barlow-condensed {
   font-family: "Barlow Condensed";

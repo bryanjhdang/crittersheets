@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div className="flex flex-row">
       <Title>
-        <Link to="/">CritterSheets</Link>
+        <Link to="/" className="hover:underline">CritterSheets</Link>
       </Title>
     </div>
   )
@@ -26,7 +26,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <div className="bg-[#20232a] flex items-center justify-center">
+    <div className="bg-[#EEEEEE] flex items-center justify-center">
       <Text>CritterSheets is a free service.</Text>
     </div>
   )
