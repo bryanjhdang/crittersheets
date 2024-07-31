@@ -4,6 +4,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import { characterRouter } from "./routes/characterRoutes";
+import { inventoryRouter } from "./routes/inventoryRoutes";
 
 dotenv.config();
 
@@ -18,6 +19,7 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.use("/character", characterRouter);
+app.use("/inventory", inventoryRouter);
 
 app.listen(port, () => {
   console.log(`Now listening on port ${port}`);
