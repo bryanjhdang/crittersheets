@@ -1,0 +1,54 @@
+{
+  "character": {
+    "name": "Clive Snow",
+    "background": "Leatherworker",
+    "birthsign": "Wheel",
+    "disposition": "Industrious / Unimaginative",
+    "coat": "Black, marbled",
+    "physicalDetail": "Willowy body",
+    "pips": 5
+  },
+  "stats": {
+    "level": 1,
+    "xp": 0,
+    "grit": 0,
+    "hp": {
+      "max": 1,
+      "current": 1
+    },
+    "attributes": {
+      "strength": {
+        "max": 8,
+        "current": 8
+      },
+      "dexterity": {
+        "max": 11,
+        "current": 11
+      },
+      "willpower": {
+        "max": 11,
+        "current": 11
+      }
+    }
+  },
+  "inventory": {
+    "conditions": [],
+    "items": [
+      {
+        "name": "Shield and jerkin",
+        "USAGE": 3,
+        "uses": 3
+      },
+      {
+        "name": "Shears",
+        "USAGE": 3,
+        "uses": 3
+      },
+      {
+        "name": "Torches",
+        "USAGE": 3,
+        "uses": 3
+      }
+    ]
+  }
+}
